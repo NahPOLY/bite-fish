@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตะกร้าสินค้า - BETTA Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script2.js" defer></script> <!-- ใช้ <script> แทน <link> สำหรับไฟล์ JavaScript -->
+</head>
+<body>
+    <header class="top-header">
+        <nav>
+            <ul>
+                <li><a class="BETTA">BETTA Club</a></li>
+                <li><a class="menu-item" href="bettakku.html">หน้าแรก</a></li>
+                <li><a class="menu-item" href="product.html">สินค้าของเรา</a></li>
+                <li><a class="menu-item" href="cart.html">ตะกร้าสินค้า</a></li>
+                <li><a class="menu-item" href="pay.html">ชำระเงิน</a></li>
+                <li><a class="menu-item" href="contact.html">ติดต่อเรา</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>ตะกร้าสินค้า</h2>
+            <ul id="cart">
+                <!-- สินค้าจะถูกเพิ่มที่นี่ -->
+            </ul>
+            <p id="total-price">รวมราคา: 0 บาท</p>
+            <button onclick="clearCart()">ล้างตะกร้า</button>
+            <a href="pay.html"><button>ไปที่การชำระเงิน</button></a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 BETTA Club@kku. สงวนสิทธิ์ทั้งหมด.</p>
+    </footer>
+</body>
+</html>
