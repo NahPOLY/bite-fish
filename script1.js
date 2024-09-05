@@ -16,7 +16,7 @@ function addToCart(productName) {
     localStorage.setItem('cart', JSON.stringify(cart));
 
     // แสดงข้อความหรือปรับปรุง UI ตามที่ต้องการ
-    alert(`${productName} ถูกเพิ่มลงในตะกร้า`);
+    alert(`${productName} ถูกเพิ่มลงในตะกร้าแล้วนะฮ้าฟ ฟู่ว`);
 }
 
 function getPrice(productName) {

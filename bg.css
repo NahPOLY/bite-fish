@@ -1,0 +1,6 @@
+body {
+    background-image: url('images/bg.jpg'); /* ใส่ URL ของรูปภาพพื้นหลัง */
+    background-size: 100% 90%; /* ทำให้รูปภาพครอบคลุมพื้นที่ทั้งหมด */
+    background-position: center; /* จัดตำแหน่งรูปภาพให้อยู่ตรงกลาง */        
+    background-repeat: no-repeat; /* ป้องกันการซ้ำของรูปภาพ */
+}
